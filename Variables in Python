@@ -1,26 +1,26 @@
 x=23
 print(x)
 23
-Here, x=variable and 23 is value. Here, x automatically knew that 23 is number.You can check that by using ( type(x)) ANSWER:int
+Here, x=variable, and 23 is value. Here, x automatically knew that 23 is a number.You can check that by using ( type(x)) ANSWER:int
 Here, y='Mint Choclate Chips' print(y) ANSWER:Mint Choclate Chips >  type(y)> ANSWER:str
-You can add several row by (+)
+You can add several rows by (+)
 
 y='Strawberry chocolate'
 print(y) 
 ANSWER>Strawberry chocolate 
-If you assign y to Mint Choclate Chips then
+If you assign y to Mint Chocolate Chips then
 y='Strawberry chocolate' 
 y='Mint Choclate Chips' 
 print(y) 
-ANSWER : Mint Choclate Chips
+ANSWER: Mint Chocolate Chips
 
-X,Y,Z='Choclate','Vanilla','Sour Candy'
+X,Y, Z='Choclate', 'Vanilla', 'Sour Candy'
 print(X)
 print(Y)
 print(Z)
 
 ANSWER:
-Choclate
+Chocolate
 Vanilla
 Sour Candy
 
@@ -40,7 +40,7 @@ print(X)
 print(Y)
 print(Z)
 ANSWER:
-Choclate
+Chocolate
 Vanilla
 Sour Candy
 
@@ -60,10 +60,10 @@ TestVariableCase='Vanilla Swirl'
 #Test Variable Case
 test_variable_case='Vanilla Swirl'
 
-(Use Snake case, it improve readability)
+(Use Snake case, it improves readability)
 
 
-you can do this 
+You can do this 
 testvar='Vanilla Swirl'
 test_var='Vanilla Swirl'
 _test_var='Vanilla Swirl'
@@ -80,7 +80,7 @@ test,Var2='Vanilla Swirl'
 c='Ice Cream is my favorite'+'.'
 print(c)
 
-Answer:Ice Cream is my favorite.
+Answer: Ice Cream is my favorite.
 
 You cannot do 
 c='Ice Cream is my favorite'+ 2
