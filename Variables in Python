@@ -1,0 +1,97 @@
+x=23
+print(x)
+23
+Here, x=variable and 23 is value. Here, x automatically knew that 23 is number.You can check that by using ( type(x)) ANSWER:int
+Here, y='Mint Choclate Chips' print(y) ANSWER:Mint Choclate Chips >  type(y)> ANSWER:str
+You can add several row by (+)
+
+y='Strawberry chocolate'
+print(y) 
+ANSWER>Strawberry chocolate 
+If you assign y to Mint Choclate Chips then
+y='Strawberry chocolate' 
+y='Mint Choclate Chips' 
+print(y) 
+ANSWER : Mint Choclate Chips
+
+X,Y,Z='Choclate','Vanilla','Sour Candy'
+print(X)
+print(Y)
+print(Z)
+
+ANSWER:
+Choclate
+Vanilla
+Sour Candy
+
+X=Y=Z='Root Beer Float'
+print(X)
+print(Y)
+print(Z)
+
+ANSWER:
+Root Beer Float
+Root Beer Float
+Root Beer Float
+
+ice_cream=['Choclate','Vanilla','Sour Candy']
+X,Y,Z=ice_cream
+print(X)
+print(Y)
+print(Z)
+ANSWER:
+Choclate
+Vanilla
+Sour Candy
+
+
+THERE ARE MANY DIFFERENT WAYS TO WRITE VARIABLE:
+
+#Camel Case
+#Test Variable Case
+testVariableCase='Vanilla Swirl'
+
+#Pascal Case
+#Test Variable Case
+TestVariableCase='Vanilla Swirl'
+(Note: T is capital)
+
+#Snake Case
+#Test Variable Case
+test_variable_case='Vanilla Swirl'
+
+(Use Snake case, it improve readability)
+
+
+you can do this 
+testvar='Vanilla Swirl'
+test_var='Vanilla Swirl'
+_test_var='Vanilla Swirl'
+TestVar='Vanilla Swirl'
+testVar2='Vanilla Swirl'
+
+You cannot do this 
+2testVar2='Vanilla Swirl'(cannot put 2 infront)
+test-Var2='Vanilla Swirl'
+test Var2='Vanilla Swirl'
+test,Var2='Vanilla Swirl'
+
+
+c='Ice Cream is my favorite'+'.'
+print(c)
+
+Answer:Ice Cream is my favorite.
+
+You cannot do 
+c='Ice Cream is my favorite'+ 2
+print(c)
+
+ANSWER: TypeError                                 Traceback (most recent call last)
+<ipython-input-16-7ce11258e15c> in <module>()
+----> 1 c='Ice Cream is my favorite'+ 2
+      2 print(c)
+
+TypeError: must be str, not int
+
+
+
