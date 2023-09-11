@@ -156,9 +156,33 @@ print( wifes_daily_pints_log^ daily_pints_log )
 {0, 4, 6, 7, 24, 31}
 
 
+----------------------------------------------------------------------------------------------------------------------------------------
+#dictionaries
+#key/Value Pair
+dict_cream={'name':'Aliza','weekly intake':5,'Favorite ice cream':['MCC','Chocolate']}
+type(dict_cream)
+dict
+print(dict_cream)
+{'name': 'Aliza', 'weekly intake': 5, 'Favorite ice cream': ['MCC', 'Chocolate']}
+dict_cream.values()
+dict_values(['Aliza', 5, ['MCC', 'Chocolate']])
+dict_cream.keys()
+dict_keys(['name', 'weekly intake', 'Favorite ice cream'])
+dict_cream.items()
+dict_items([('name', 'Aliza'), ('weekly intake', 5), ('Favorite ice cream', ['MCC', 'Chocolate'])])
+dict_cream['name']
+'Aliza'
+dict_cream['name']='EvaJazmin'
+print(dict_cream)
 
+{'name': 'EvaJazmin', 'weekly intake': 5, 'Favorite ice cream': ['MCC', 'Chocolate']}
 
-
+dict_cream.update({'name': 'EvaJazmin', 'weekly intake': 5, 'weight':30})
+print(dict_cream)
+{'name': 'EvaJazmin', 'weekly intake': 5, 'Favorite ice cream': ['MCC', 'Chocolate'], 'weight': 30}
+del dict_cream['weight']
+print(dict_cream)
+{'name': 'EvaJazmin', 'weekly intake': 5, 'Favorite ice cream': ['MCC', 'Chocolate']}
 
 
 
