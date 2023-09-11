@@ -1,0 +1,70 @@
+number=0
+while number<5:
+    print(number)
+    number=number+1
+0
+1
+2
+3
+4
+
+
+number=0
+while number<5:
+    print(number)
+    if number==3:
+        break
+    number=number+1
+0
+1
+2
+3
+
+number=0
+while number<5:
+    print(number)
+    if number==6:
+        break  
+    number=number+1
+else:
+        print('No Longer<5')
+
+0
+1
+2
+3
+4
+No Longer<5
+
+
+
+number=0
+while number<5:
+    print(number)
+    if number==3:
+        break  
+    number=number+1
+else:
+        print('No Longer<5')
+
+0
+1
+2
+3
+
+number=0
+while number<5:
+    number=number+1
+    if number==3:
+        continue
+    print(number) 
+else:
+        print('No Longer<5')
+1
+2
+4
+5
+No Longer<5
+
+
+
