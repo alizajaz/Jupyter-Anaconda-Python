@@ -1,6 +1,6 @@
 There are 3 data types in Python
-1. Int,Float and Complex number 
-Integer is basically whole number, can be positive or negative eg 12,-12, you can check by typing type(12+10)
+1. Int, Float and Complex number 
+An integer is basically a whole number, which can be positive or negative eg 12,-12, you can check by typing type(12+10)
 type(12+11.5) float
 type(5+6k) 
 File "<ipython-input-4-57729aa1cf53>", line 1
@@ -13,11 +13,11 @@ complex
 
 #Boolean
 type(True)
-Result:bool
+Result: bool
 
 #Boolean
 type(False)
-Result:bool
+Result: bool
 
 #Boolean
 type(true)
@@ -55,7 +55,30 @@ Answer:
 I
 am
 Aliza
-I am who i am 
+I am who I am 
+
+"I've always wanted to eat the gallon of ice cream."
+Answer: "I've always wanted to eat the gallon of ice cream."
+
+"""
+I've always wanted to eat the gallon of "ice cream."
+"""
+type (multiline)
+str
+
+a = 'Hello World!'
+print(a[:5])
+Answer: Hello
+
+
+a = 'Hello World!'
+print(a[2:5])
+Answer:llo
+
+a*3
+'Hello World!Hello World!Hello World!'
+
+
 
 
 
