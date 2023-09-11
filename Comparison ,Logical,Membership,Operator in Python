@@ -7,3 +7,58 @@ Operator       	Name	              Example
 >=	  Greater than or equal to	    x >= y	
 <=	  Less than or equal to	        x <= y
 
+
+10==50
+False
+10!=3
+True
+'Aliza'='Aliza'
+  File "<ipython-input-3-a7c9dbc8494f>", line 1
+    'Aliza'='Aliza'
+                   ^
+SyntaxError: can't assign to literal
+'Aliza'=='Aliza'
+True
+x='Aliza'
+y='Bloan'
+x==y
+False
+x!=y
+True
+10<50
+True
+10<10
+False
+10<=10
+True
+50>=10
+True
+10>50
+False
+(10>50) and(50>10)
+False
+(80>50) and(50>10)
+True
+(10>50) or (50>10)
+True
+('Vanilla'>'Chocolate') and (50>10)
+True
+('Vanilla'>'Chocolate') or (50>10)
+True
+not(50>10)
+False
+ice_cream='I love Chocolate ice cream.'
+'love' in 'I love Chocolate ice cream.'
+True
+scoops =[1,2,3,4,5]
+6 not in scoops
+True
+scoops =[1,2,3,4,5]
+wanted_scoops=8
+wanted_scoops not in scoops
+True
+scoops =[1,2,3,4,5]
+wanted_scoops=8
+wanted_scoops in scoops
+False
+ 
