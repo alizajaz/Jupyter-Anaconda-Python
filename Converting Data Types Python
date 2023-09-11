@@ -1,1 +1,31 @@
 
+num_int=7
+type(num_int)
+int
+num_str='7'
+type(num_str)
+str
+#convert num to int
+num_str_conv=int(num_str)
+type(num_str_conv)
+int
+num_sum=num_int+num_str_conv
+print(num_sum)
+14
+list_type=[1,2,3]
+type(list_type)
+list
+type(tuple(list_type))
+tuple
+list_type=[1,2,3,3,2,1,2,3,2,1]
+type(set(list_type))
+dict
+
+dict_type.items()
+dict_items([('name','aliza'),('age',28),('hair','N/A')])
+dict_type.values()
+dict_values(['Aliza',28,'N/A'])
+dict_type.keys()
+dict_keys(['name','age','hair'])
+type(list(dict_type.keys()))
+
