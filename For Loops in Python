@@ -1,1 +1,57 @@
+integers=[1,2,3,4,5] 
+for number in integers:
+    print(number)
+1
+2
+3
+4
+5
 
+for number in integers:
+    print('yep!')
+yep!
+yep!
+yep!
+yep!
+yep!
+
+integers=[1,2,3,4,5] 
+   for jelly in integers:
+    print(jelly + jelly)
+2
+4
+6
+8
+10
+
+ice_cream_dict={'name':'Aliza Bloan','weekly intake':5,'favorite ice creams':['MCC','Chocolate']}
+for cream in ice_cream_dict.values():
+    print(cream)
+Aliza Bloan
+5
+['MCC', 'Chocolate']
+
+
+for key, value in ice_cream_dict.items():
+    print(key,'->',value)
+name -> Aliza Bloan
+weekly intake -> 5
+favorite ice creams -> ['MCC', 'Chocolate']
+
+#Nested for Loop
+flavors=['vanilla', 'chocolate',' Cookie Dough']
+toppings=['Hot Fudge', 'Oreos', 'Marshmallows']
+
+for one in flavors:
+    for two in toppings:
+        print(one,'topped with',two)
+
+vanilla topped with Hot Fudge
+vanilla topped with Oreos
+vanilla topped with Marshmallows
+chocolate topped with Hot Fudge
+chocolate topped with Oreos
+chocolate topped with Marshmallows
+Cookie Dough topped with Hot Fudge
+Cookie Dough topped with Oreos
+Cookie Dough topped with Marshmallows
