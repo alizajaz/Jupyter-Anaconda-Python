@@ -1,0 +1,61 @@
+There are 3 data types in Python
+1. Int,Float and Complex number 
+Integer is basically whole number, can be positive or negative eg 12,-12, you can check by typing type(12+10)
+type(12+11.5) float
+type(5+6k) 
+File "<ipython-input-4-57729aa1cf53>", line 1
+    type(5+6k)
+            ^
+SyntaxError: invalid syntax
+
+type(5+6j)
+complex
+
+#Boolean
+type(True)
+Result:bool
+
+#Boolean
+type(False)
+Result:bool
+
+#Boolean
+type(true)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-6-5ac29871a30e> in <module>()
+      1 #Boolean
+----> 2 type(true)
+
+NameError: name 'true' is not defined
+
+1>5
+False
+1==1
+True
+
+Sequence Data Type 
+
+#Strings
+'Single Quote'
+Answer:'Single Quote'
+
+#Strings
+'Double Quote'
+Answer:'Double Quote'
+
+multiline="""
+I
+am
+Aliza
+I am who i am 
+"""
+print(multiline)
+Answer: 
+I
+am
+Aliza
+I am who i am 
+
+
+
